@@ -1823,7 +1823,7 @@ DrawPlayerHUDAndHPBar:
 	hlcoord 10, 7
 	call PlaceString
 	call PrintPlayerMonGender
-	call PrintEXPBar
+	call PrintEXPBarAt1711
 	ld hl, wBattleMonSpecies
 	ld de, wLoadedMon
 	ld bc, wBattleMonDVs - wBattleMonSpecies
